@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* config -->     ?*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+input{
+    border: 2px solid #fff;
+    background: none;
+}
+
+/* -> HEADER <- */
+.head {
+    background-image: url("../images/Fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #06050595;
+    height: 12vh;
+    color: #FFF;
+}
+
+
+.cB {
+    color: #00ADEF;
+}
+
+.colBlue {
+    color: #00ADEF;
+    border: 2px solid #00ADEF;
+    padding: 10px 15px;
+}
+
+.bg1 {
+    color: #fff;
+    font-size: 25px;
+    margin: 15% 0 0 0;
+    text-align: center;
+}
+
+.bg1 .h3_1 {
+    background-color: #32393e92;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+
+/* --------------------- */
+
+/* -> section cards <- */
+.cards {
+    display: flex;
+    align-items: center;
+    background-color: #00ADEF;
+    color: #fff;
+    height: 50vh;
+}
+
+.card {
+    width: 20%;
+    margin: 35px;
+}
+
+/*  */
+
+/* -> portfolio <-*/
+section .nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #000;
+    margin: 2rem;
+}
+
+section .nav2 a {
+    color: #000;
+    margin: 10px;
+    color: #6e7175;
+}
+
+.portfolio {
+    font-size: 25px;
+    border-bottom: 4px #6e7175 solid;
+    border-radius: 2px;
+    width: 50px;
+    color: #6e7175;
+}
+
+.a .nav2Link {
+    color: #00ADEF;
+    border: 2px solid #00ADEF;
+    padding: 10px 15px;
+}
+
+/* -> Gallery <- */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 4em;
+}
+
+/* -> Default Section <-*/
+
+.dfSect {
+    background-color: #2e3a49;
+    color: #fff;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.dfSect img {
+    width: 500px;
+}
+
+.art1 {
+    width: 70%px;
+    margin-right: 10%;
+
+}
+
+.h3dfSect {
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+}
+
+.art1 p {
+    margin: 10px;
+    line-height: 30px;
+}
+
+.art1 button {
+    font-size: 15px;
+    padding: 10px;
+    background: none;
+    border: 2px solid #1e2327;
+    color: #1e2327;
+}
+
+/* TWITTER */
+
+.twit {
+    background-color: #00ADEF;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; 
+    color: #e8e8e8;
+    margin-left: -10%;
+}
+
+.twit p {
+    margin: 20px 0 0 0;
+}
+
+/* -> Photograph <- */
+.photoGraph {
+    background-image: url('../images/bg_whoIs.png');
+    background-size: cover;
+    display: flex;
+    color: #fff;
+    font-weight: 300;
+    align-items: center;
+}
+
+.photoGraph .f1
+ {
+    padding: 90px;
+    line-height: 30px;
+}
+
+.photoGraph .f2{
+    padding: 90px;
+    line-height: 30px;
+}
+
+/* -> Testimoniales <- */
+
+.testimonials {
+    color: #7e8185;
+    padding: 60px 80px;
+}
+
+.testimonials p{
+    line-height: 40px;
+}
+
+.walterB {
+    color: #00ADEF;
+}
+
+/* contact */
+
+.contact{
+    background-image: url('../images/bg_contact.png');
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+}
+
+.contacto {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    text-align: start;
+}
+
+.contact input, p{
+    margin-top: 10px;
+}
+
+.inp1{
+    margin-right: 30px;
+    width: 500px;
+    height: 40px;
+}
+
+.inpLarge{
+    width: 180%;
+    height: 200px;
+}
+
+.ctcBtn{
+    border: none;
+    padding: 10px 40px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #00ADEF;
+}
+.txt2{
+    margin: 40px 0px 0px 58px;
+}
+
+/* -> footer <- */
+
+footer{
+    background-color: #1e2327;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #2e3a49;
+    justify-content: space-around;
+}
+
+footer a{
+    margin: 10px;
+    color: #2e3a49;
+}
+
+/* -> RESPONSIVE <- */
+
+@media (max-width:768px){
+
+    .nav{
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .cards{
+        flex-direction: column;
+        height: 140vh;
+    }
+
+    .card{
+        width: 70%;
+    }
+
+    .nav2{
+        flex-direction: column;
+    }
+
+    .portfolio{
+        width: 100%;
+        text-align: center;
+    }
+
+    .a{
+        margin-top: 20px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .gallery{
+        display: block;
+        text-align: center;
+    }
+
+    .art2 img{
+       width: 100%; 
+       margin-top: 40px;
+       justify-content: center;
+    }
+
+    .photoGraph{
+        flex-direction: column;
+    }
+
+    .photoGraph .f1{
+        padding: 20px;
+    }
+
+    .photoGraph .f2{
+        padding: 20px;
+    }
+
+    .icons{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .contacto{
+        display: block;
+        margin: 0;
+    }
+
+    .contacto input {
+        width: 200px    ;
+    }
+
+    
+
+    footer{
+        display: block;
+        text-align: center;
+    }
+
+}
